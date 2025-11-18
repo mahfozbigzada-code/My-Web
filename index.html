@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Website</title>
+    
+ 
+    
+      <main>
+        <h2>Registration Form</h2>
+        <form id="registerForm">
+          <input type="text" placeholder="Full name" required>
+          <input type="email" placeholder="email" required>
+          <select required>
+            <option value="">Select Country</option>
+            <option value="AF">افغانستان</option>
+            <option value="IR">ایران</option>
+            <option value="US">آمریکا</option>
+          </select>
+          <label><input type="checkbox"> HTML</label><br>
+          <label><input type="checkbox"> CSS</label><br>
+          <label><input type="checkbox"> JavaScript</label>
+          <button type="submit">Register</button>
+        </form>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .box {
+            background: rgb(132, 107, 107);
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #bbb;
+            
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #4a90e2;
+            border-radius: 5px;
+            color: white;
+        }
+
+        a:hover {
+            background: #3379c9;
+            animation: hoverglow 2s ease forwards;
+        }
+        
+        @keyframes hoverglow {
+          50%  {
+              transform: scale(1.05 ) rotate(-2deg);
+              box-shadow: 0 15px 40px rgba(30, 144, 255, 0.7);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Amazon Website</h1>
+    </header>
+      <div class="lor">
+         
+        <h1>
+            Nike Black Running Shoes
+
+        <br>
+        40$ - in Stock
+        <br>
+        Free delivery Tommarow
+        </h1>
+                <br>
+                <button id="addBtn" value="Add">Add to cart</button>
+                <button id="buyBtn" value="Buy">Buy Now</button>
+
+<script>
+  document.getElementById("addBtn").addEventListener("click", function() {
+    alert("محصول به سبد خرید اضافه شد!");
+    
+  });
+
+  document.getElementById("buyBtn").addEventListener("click", function() {
+    alert("در حال انتقال به صفحه پرداخت...");
+    
+  });
+</script>
+
+<hr>
+<br>
+<div class="lor">
+         
+    <h1>
+       Computer cor i7
+
+    <br>
+   1000$ - in Stock
+    <br>
+    Free delivery Tommarow
+    </h1>
+            <br>
+            <button id="addBtn" value="Add">Add to cart</button>
+            <button id="buyBtn" value="Buy">Buy Now</button>
+
+<script>
+document.getElementById("addBtn").addEventListener("click", function() {
+alert("محصول به سبد خرید اضافه شد!");
+
+});
+
+document.getElementById("buyBtn").addEventListener("click", function() {
+alert("در حال انتقال به صفحه پرداخت...");
+
+});
+</script>
+<hr>
+<br>
+<div class="lor">
+         
+    <h1>
+        Poco x7 Pro
+
+    <br>
+    530$ - in Stock
+    <br>
+    Free delivery Tommarow
+    </h1>
+            <br>
+            <button id="addBtn" value="Add">Add to cart</button>
+            <button id="buyBtn" value="Buy">Buy Now</button>
+
+<script>
+document.getElementById("addBtn").addEventListener("click", function() {
+alert("محصول به سبد خرید اضافه شد!");
+
+});
+
+document.getElementById("buyBtn").addEventListener("click", function() {
+alert("در حال انتقال به صفحه پرداخت...");
+
+});
+</script>
+<br>
+<hr>
+<div class="lor">
+         
+    <h1>
+        Airpad m8
+
+    <br>
+    $45 - in Stock
+    <br>
+    Free delivery Tommarow
+    </h1>
+            <br>
+            <button id="addBtn" value="Add">Add to cart</button>
+            <button id="buyBtn" value="Buy">Buy Now</button>
+
+<script>
+document.getElementById("addBtn").addEventListener("click", function() {
+alert("محصول به سبد خرید اضافه شد!");
+
+});
+
+document.getElementById("buyBtn").addEventListener("click", function() {
+alert("در حال انتقال به صفحه پرداخت...");
+
+});
+</script>
+<hr>
+<style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #007bff;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #575757;
+    }
+    main {
+      padding: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, select, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  
+
+    <h2>محصولات</h2>
+    <table>
+      <tr>
+        <th>نام محصول</th>
+        <th>قیمت</th>
+        <th>عملیات</th>
+      </tr>
+      <tr>
+        <td>Iphone 17 Pro Max</td>
+        <td>1700$</td>
+        <td>
+          <button onclick="addToCart()">Add to cart</button>
+          <button onclick="buyNow()">Buy Now</button>
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  
+
+  <script>
+    document.getElementById("registerForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("ثبت‌نام با موفقیت انجام شد!");
+    });
+
+    function addToCart() {
+      alert("محصول به سبد خرید اضافه شد!");
+    }
+
+    function buyNow() {
+      alert("در حال انتقال به صفحه پرداخت...");
+    }
+  </script>
+<hr>
+<br>
+<h2>Products</h2>
+<table>
+  <tr>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Actions</th>
+  </tr>
+
+  <tr>
+    <td>iPhone 17 Pro Max</td>
+    <td>$1700</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>Samsung Galaxy S25 Ultra</td>
+    <td>$1500</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>MacBook Pro M3</td>
+    <td>$2400</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>Dell XPS 15</td>
+    <td>$1800</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>Apple Watch Series 10</td>
+    <td>$599</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>PlayStation 6</td>
+    <td>$699</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>Xbox Series Z</td>
+    <td>$649</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>Canon EOS R5 Camera</td>
+    <td>$3800</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>DJI Mavic 4 Drone</td>
+    <td>$2200</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+  <tr>
+    <td>Lenovo Legion Gaming Laptop</td>
+    <td>$1600</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+
+</table>
+
+<script>
+  function addToCart() {
+    alert("Product added to cart!");
+  }
+
+  function buyNow() {
+    alert("Redirecting to checkout...");
+  }
+
+  document.getElementById("registerForm")?.addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Registration successful!");
+  });
+</script>
+<br><hr>
+<tr>
+    <td>Google Pixel 9 Pro</td>
+    <td>$1200</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>HP Spectre x360</td>
+    <td>$1400</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Asus ROG Phone 8</td>
+    <td>$1100</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>MSI Raider GE78</td>
+    <td>$2500</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>iPad Pro 13" M4</td>
+    <td>$1300</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Logitech MX Master 4</td>
+    <td>$129</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Razer BlackWidow V5</td>
+    <td>$199</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Samsung 49" OLED Monitor</td>
+    <td>$1800</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>GoPro Hero 13</td>
+    <td>$499</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Amazon Echo Show 15</td>
+    <td>$279</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Fitbit Charge 7</td>
+    <td>$159</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>OnePlus 13</td>
+    <td>$999</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Alienware Aurora R16</td>
+    <td>$3200</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Surface Laptop 6</td>
+    <td>$1700</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Beats Studio Pro</td>
+    <td>$349</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>LG OLED TV 77"</td>
+    <td>$3200</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Steam Deck 2</td>
+    <td>$699</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>Meta Quest 4</td>
+    <td>$599</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>JBL PartyBox 310</td>
+    <td>$499</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+  
+  <tr>
+    <td>WD Black 4TB SSD</td>
+    <td>$399</td>
+    <td>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </td>
+  </tr>
+  <tr><td colspan="3"><hr></td></tr>
+<br><hr>
+<footer>
+    &copy; 2025 تمامی حقوق محفوظ است.
+  </footer>
+<hr>
+      </div>
+      <br>
+      <br>
+    <div class="box">
+        <h2>Click the button to visit Amazon</h2>
+        <a href="https://www.amazon.com" target="_blank">Go to Amazon</a>
+    </div>
+    <a href="https://amazonhome.com"><li><span>⛪</span></li>Home</a>
+    <a href="https://www.amazoncontact.com"><li><span>📞</span></li>Contact </a>
+    <a href="https://www.report.com"><li><span></span></li>📋Submit a Report</a>
+</body>
+</html>
+ 
